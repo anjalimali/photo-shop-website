@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.myspecer {
+  flex: 1;
+}
+
+.upper {
+  padding: 3.5rem;
+}
+
+.head {
+  font-weight: 600;
+  font-size: 3rem;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  text-shadow: 2px 2px 5px orange;
+  /* color: red; */
+
+}
+
+body {
+  padding: 20px;
+  padding-top: 0;
+  background-color: #131313 !important;
+
+}
+
+.text {
+  color: white;
+  border-right: 2px solid red;
+  font-size: 65px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px red;
+}
+
+.text2 {
+  color: white;
+  border-right: 2px solid red;
+  font-size: 55px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px red;
+}
+
+.text1 {
+  color: white;
+  border-right: 2px solid red;
+  font-size: 55px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px red;
+}
+
+.text3 {
+  color: white;
+  border-right: 2px solid red;
+  font-size: 55px;
+  font-family: 'Pacifico', cursive;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 5px red;
+}
+
+.nav1 {
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+}
+
+.nav2 {
+  color:white;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.col1 {
+  position: relative;
+  width: 50%;
+  padding: 0.5rem;
+}
+
+.col2 {
+  padding-top: 4rem;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+}
+
+.col1:hover .image {
+  opacity: 0.3;
+}
+
+.col1:hover .middle {
+  opacity: 1;
+}
+
+.shadow1 {
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px orange;
+}
+
+.contain1 {
+  position: relative;
+  padding: 3rem;
+}
+
+.contain1:hover {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 0;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  /* Black see-through */
+  color: #f1f1f1cd;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  opacity: 0;
+  color: white;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.contain1:hover .overlay {
+  opacity: 1;
+}
+
+.album {
+  padding: 3rem;
+}
+
+.about {
+  background: #8E0E00;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1F1C18, #8E0E00);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1F1C18, #8E0E00);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.fee {
+  background-image: url('./images/robert-lukeman-_RBcxo9AU-U-unsplash.jpg');
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  margin: 2rem;
+  position: relative;
+
+}
+
+.fee::after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(23, 9, 9, 0.314);
+  content: ' ';
+}
+.feed_form{
+  z-index: 1;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.e-mail{
+  padding: 10px;
+  padding-left: 3.5rem;
+  margin: 1rem;
+}
+
+footer {
+ 
+  margin-top: 4rem;
+  padding-top: 2rem;
+}
+
+footer .pages h3 {
+  color: white;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .pages a {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: orange;
+  font-size: 15px;
+  font-family: cosmin, sans-serif;
+}
+
+footer .pages a:hover {
+  color: white;
+}
+
+footer .doc h3 {
+  color: white;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .doc a {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: orange;
+  font-size: 15px;
+  font-family: cosmin, sans-serif;
+}
+
+footer .doc a:hover {
+  color: white;
+}
+
+footer .social h3 {
+  color: white;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .social a {
+  text-decoration: none;
+  font-size: 30px;
+  color:orange;
+  margin: 10px;
+}
+
+footer .social a:hover {
+  color: white;
+}
+
+footer .contact h3 {
+  color: white;
+  font-size: 20px;
+  font-family: cosmic, sans-serif;
+  padding: 5px;
+}
+
+footer .contact a {
+  text-decoration: none;
+  font-size: 30px;
+  color:orange;
+  margin: 10px;
+}
+
+footer .contact a:hover {
+  color: white;
+}
+
+.show {
+  padding: 1rem;
+  padding-top: 3ren;
+}
+.btn1:hover{
+ background-color:  #131313;
+ color: white;
+}
+
+.back1 {
+  background-image: url('./images/film-ge76d2afce_1920.jpg');
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-position: center;
+  position: relative;
+}
+
+.back1::after {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(1, 1, 10, 0.486);
+}
+
+.z {
+  z-index: 5;
+  position: relative;
+  padding-left: 20rem;
+  padding-right: 15rem;
+  font-size: 20px;
+  padding-top: 2rem;
+}
+.z2 {
+  z-index: 5;
+  position: relative;
+  padding-left: 33rem;
+  font-size: 20px;
+}
+
+.z3 {
+  z-index: 5;
+  position: relative;
+  padding-left: 30rem;
+  font-size: 20px;
+}
+
+@media screen and (max-width:768px) {
+  body {
+    padding: 0;
+  }
+
+  .contain1 {
+    padding: 1rem;
+  }
+
+  .overlay {
+    font-size: 5px;
+  }
+
+  .album {
+    padding: 0;
+  }
+
+  .head {
+    font-size: 2rem;
+    padding-top: 4rem;
+  }
+
+  video {
+    height: 300px;
+    width: 300px;
+  }
+
+  .feed {
+    margin: 0;
+  }
+  .feed_form{
+    padding: 1rem;
+    z-index: 1;
+  }
+  .e-mail{
+    padding: 0 !important;
+  }
+}

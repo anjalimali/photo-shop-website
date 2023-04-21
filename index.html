@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+
+<body>
+  <div class="container fixed-top navbar1">
+    <nav class="navbar navbar-expand-lg navbar-light text-light ">
+      <div class="container-fluid">
+        <a class="navbar-brand fw-bold text-light" href="#">NOVO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="myspecer"></div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav1" aria-current="page" href="./index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav1" href="./aboutus.html">ABOUT US</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav1 " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                ALBUMS
+              </a>
+              <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Album1</a></li>
+                <li><a class="dropdown-item" href="#">Album2</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav1" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">GALLERIES</a>
+              <ul class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="./gallery1.html">Gallery 1</a></li>
+                <li><a class="dropdown-item" href="./gallery2.html">Gallery 2</a></li>
+
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav1" href="./blog.html">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav1" href="./contact.html">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav1" href="#">BOOKING</a>
+            </li>
+          </ul>
+          <i class="fa-solid fa-cart-shopping pe-3"></i>
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!-- Hero SECTION -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner ">
+      <div class="carousel-item active">
+        <img src="./images/l1.jpg" class="img-fluid" alt="...">
+
+        <div
+          class="carousel-caption d-none d-md-flex flex-column justify-content-center align-items-start  top-0 bottom-0 p-5 px-0 head2">
+          <p>Welcome to My</p>
+          <h1 class=" head"> I'm </h1>
+          <div class="text"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br> Numquam ullam beatae repellat iste similique
+            quae.</p>
+          <div class="btn1 p-4">
+            <button type="button" class="btn btn-outline-danger me-3">READ MORE</button>
+            <button type="button" class="btn btn-light">CONTACT ME</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/key-gf31e6d1a9_1920.jpg" class="img-fluid w-100" alt="...">
+        <div
+          class="carousel-caption d-none d-md-flex flex-column  justify-content-end align-items-center top-0 bottom-0 left-0 right-0 p-5 px-0">
+          <p>Welcome to My</p>
+
+          <h1 class=" head"> I'm </h1>
+          <div class="text1"></div>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br> Numquam ullam beatae repellat iste similique
+            quae.</p>
+          <div class="btn1 p-4">
+            <button type="button" class="btn btn-danger me-3">READ MORE</button>
+            <button type="button" class="btn btn-light">CONTACT ME</button>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/backgraound3.jpg" class="img-fluid w-100" alt="...">
+        <div
+          class="carousel-caption d-none d-md-flex flex-column  justify-content-center align-items-start  top-0 bottom-0 p-5 px-0">
+          <p>Welcome to My</p>
+          <h1 class=" head"> I'm </h1>
+          <div class="text2"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br> Numquam ullam beatae repellat iste similique
+            quae.</p>
+          <div class="btn1 p-4">
+            <button type="button" class="btn btn-outline-danger me-3">READ MORE</button>
+            <button type="button" class="btn btn-light">CONTACT ME</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="./images/bird-g2dad096a7_1920.jpg" class="img-fluid w-100" alt="...">
+        <div
+          class="carousel-caption d-none d-md-flex flex-column justify-content-end align-items-center  top-0 bottom-0">
+          <p>Welcome to My</p>
+          <h1 class="head"> I'm </h1>
+          <div class="text3"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing. <br> Numquam ullam beatae repellat iste similique
+            quae.</p>
+          <div class="btn1 p-4">
+            <button type="button" class="btn btn-danger me-3">READ MORE</button>
+            <button type="button" class="btn btn-light ">CONTACT ME</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Album.....stories -->
+  <div class="album">
+    <div class="container text-center">
+      <h1 class="head">Real Wedding Stories</h1>
+      <p class="pb-4 pt-2 text-light">A selection of some of our favourite weddings from over the years. <br> Don't
+        forget to watch
+        their wedding film at the end of each article! </p>
+      <div class="row shadow-lg p-4 ">
+        <div class="col-md-4 contain1  ">
+          <img src="./images/album1.jpg" class="img-fluid img" alt="">
+          <div class="overlay">"Madly in love" is how Rhea's mother described her daughter since she met Akash. And so
+            she was! In love</div>
+
+        </div>
+        <div class="col-md-4 contain1  ">
+          <img src="./images/album2.jpg" class="img-fluid img" alt="">
+          <div class="overlay">"Madly in love" is how Rhea's mother described her daughter since she met Akash. And so
+            she was! In love</div>
+        </div>
+        <div class="col-md-4 contain1 ">
+          <img src="./images/album3.jpg" class="img-fluid img" alt="">
+          <div class="overlay">"Madly in love" is how Rhea's mother described her daughter since she met Akash. And so
+            she was! In love</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- about -->
+
+
+  <div class="about">
+    <div class="container upper">
+      <h1 class="head text-light text-center">We love destination! </h1>
+      <div class="row">
+        <div class="col-md-6 pb-5 d-md-flex flex-column justify-content-center">
+          <p>ABOUT US</p>
+          <h5 class="pb-3">I HAVE PHOTOGRAHPED WEDDING, STREET, EVENTS THROUGHOUT THE UNITED KINGDOM AS WELLL AS
+            EUROPE, ASIA.</h5>
+          <p class=" bg-warning p-2 text-center mb-5" style="width: 70%;">WE ARE A TEAM OF PROFESSIONAL PHOTOGRAPHERS
+          </p>
+          <div class="fw-bold">
+            <p><i class="fa-solid fa-star-of-life pe-2"></i> PROFESSIONAL IN-HOUSE ASSISTANTS </p>
+            <p><i class="fa-solid fa-star-of-life pe-2"></i>TOP STANDARD STUDIO</p>
+            <p><i class="fa-solid fa-star-of-life pe-2"></i>HIGH TECHNOLOGY EQUIPMENTS</p>
+            <p><i class="fa-solid fa-star-of-life pe-2"></i>BEST LOCATION</p>
+          </div>
+
+        </div>
+        <div class="col-md-6 justify-content-center ">
+          <video width="600" height="450" controls autoplay class="rounded ">
+            <source src="./images/pexels-hasan-sayeed-14299380-1920x1080-25fps.mp4">
+          </video>
+          <!-- <img src="./images/reinhart-julian-WxM465oM4j4-unsplash.jpg" alt="" class="img-fluid rounded-pill shadow2"> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- showcase -->
+  <div class="show ">
+    <div class="container">
+      <h1 class="head text-center pt-5">Photography Showcase</h1>
+      <div class="row pt-5">
+        <div class="col-md-3 col1">
+          <img src="./images/robert-lukeman-_RBcxo9AU-U-unsplash.jpg" alt="" class="img-fluid image">
+        </div>
+        <div class="col-md-3 col1">
+          <img src="./images/reinhart-julian-WxM465oM4j4-unsplash.jpg" alt="" class="img-fluid image">
+        </div>
+        <div class="col-md-3 col1">
+          <img src="./images/leonard-cotte-c1Jp-fo53U8-unsplash.jpg" alt="" class="img-fluid image">
+        </div>
+        <div class="col-md-3 col1">
+          <img src="./images/studio-g838970e64_1920.jpg" alt="" class="img-fluid image">
+        </div>
+
+      </div>
+      <div class="row ">
+        <div class="col-md-6 col1">
+          <img src="./images/w6.jpg" alt="Avatar" class="image img-fluid" style="width:100%">
+          <div class="middle">
+            <!-- <div class="mid "> anjali</div> -->
+          </div>
+        </div>
+        <div class="col-md-6 col1 pt-5">
+          <img src="./images/background2.jpg" alt="Avatar" class="image img-fluid" style="width:100%">
+          <div class="middle">
+            <!-- <div class="mid "> anjali</div> -->
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-3 col1">
+          <img src="./images/s1.jpg" alt="" class="img-fluid image">
+          <div class="middle">
+            <!-- <div class="mid "> anjali</div> -->
+          </div>
+        </div>
+        <div class="col-md-3 col1">
+          <img src="./images/s2.jpg" alt="" class="img-fluid image">
+        </div>
+        <div class="col-md-3 col1">
+          <img src="./images/s34.jpg" alt="" class="img-fluid image">
+        </div>
+        <div class="col-md-3 col1">
+          <img src="./images/s4.jpg" alt="" class="img-fluid image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col1">
+          <img src="./images/black1.jpg" alt="" class=" img-fluid image">
+          <img src="./images/black5.jpg" alt="" class="image img-fluid">
+        </div>
+        <div class="col-md-4 col1">
+          <img src="./images/black2.jpg" alt="" class="image img-fluid">
+          <img src="./images/black3.jpg" alt="" class="image img-fluid">
+        </div>
+        <div class="col-md-4 col1">
+          <img src="./images/woman-g8c5915647_1920.jpg" alt="" class="image img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- form -->
+  <div class="feed text-light pb-5">
+    <h1 class="h11 fw-bold text-center pt-5 ">Life is about Creating Experiences</h1>
+    <p class="text-center pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros
+      elementum tristique. </p>
+    <p class="text-center ">Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae
+      erat.</p>
+    <h3 class=" p-4 text-center text-light fw-bold">Get In Touch</h3>
+    <div class="row">
+      <div class="col-md-4 text-light">
+        <img src="./images/icons8-camera-94.png" class=" img-fluid ps-5" alt="">
+        <p class="pt-4 fs-5 ps-5">Studio Photography</p>
+        <p class="pt-2 ps-5 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+          ut
+          labore et dolore magna aliqua. Quis ipsum suspendisse ul-trices gravida.</p>
+      </div>
+      <div class="col-md-4 d-md-flex justify-content-center align-items-center top-0 bottom-0 left-0 right-0">
+        <div class="feed_form text-center">
+          <form name="submit_goolesheet" method="post">
+            <input type="email" name="email" placeholder="E-mail" class="m-3 px-5 p-1"><br>
+            <textarea rows="5" cols="34" name="review" placeholder="write your review"></textarea><br>
+            <button type="submit" class="mt-2 btn1 px-3">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="col-md-4 text-light p-3 ">
+        <img src="./images/icons8-laptop-play-video-48.png" class="ps-5 img-fluid " style="height: 10vh;" alt="">
+        <p class=" pt-4 fs-5 ps-3 ">Wedding Editing</p>
+        <p class="ps-3  pt-2">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+          aliqua.
+          Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan.</p>
+      </div>
+    </div>
+  </div>
+  <!-- design -->
+  <div id="design pt-5">
+    <div class="back1 d-flex justify-content-center pt-5 flex-column align-items-start">
+      <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <h5 class="z text-light">"The automated process starts as soon as your clothe go into the
+                machine.This site outcome is gleaming clothe. Pllaceholder text commonly used. In
+                publishing
+                and graphic.</h5>
+              <img src="./images/WhatsApp Image 2023-04-21 at 3.42.16 PM.jpeg" class="z2 img-fluid pb-3" alt="">
+              <h6 class="z2 text-light ">Robart Drawn</h6>
+              <p class="z3 text-light">Creative Designer at Colorlib</p>
+            </div>
+            <div class="carousel-item">
+              <h5 class="z text-light">"The automated process starts as soon as your clothe go into the
+                machine.This site outcome is gleaming clothe. Pllaceholder text commonly used. In
+                publishing
+                and graphic.</h5>
+
+              <img src="./images/WhatsApp Image 2023-04-21 at 3.42.16 PM.jpeg" class="z2 img-fluid pb-3" alt="">
+              <h6 class="z2 text-light ">Robart Drawn</h6>
+              <p class="z3 text-light">Creative Designer at Colorlib</p>
+            </div>
+
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="text-center">
+    <div class="pages">
+      <h3>Pages</h3>
+      <a href="./index.html">About Us | </a>
+      <a href="./gallery2.html">Album | </a>
+      <a href="./blog.html">Blogs | </a>
+      <a href="./booking.html">Booking | </a>
+    </div>
+    <div class="doc">
+      <h3>Documents</h3>
+      <a href="">Privacy Policy</a>
+      <a href="">Terms of Uses</a>
+
+    </div>
+    <div class="social">
+      <h3>Follow Us</h3>
+      <a href="https://www.facebook.com/bangtan.official" target="_blank"><i class="fa fa-facebook"
+          aria-hidden="true"></i></a>
+      <a href="https://twitter.com/bts_twt" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/bts.bighitofficial/?hl=en" target="_blank"><i class="fa fa-instagram"
+          aria-hidden="true"></i></a>
+      <a href="https://in.linkedin.com/school/sharad-institute-of-technology-college-of-engineering-gat/"><i
+          class="fa fa-linkedin" aria-hidden="true"></i></a>
+    </div>
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <a href="https://api.WhatsApp.com/send1?phone=+917558543433" target="_blank"><i class="fa fa-whatsapp"
+          aria-hidden="true"></i></a>
+      <a href="tel:+919356818208"><i class="fa fa-mobile" aria-hidden="true"></i></a>
+      <a href="mailto:anjalimali158@"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+    </div>
+    <hr>
+    <p class="text-light">Copyright &copy; 2022 . All rights reserved</p>
+  </footer>
+  <script src="./app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+    integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+    crossorigin="anonymous"></script>
+  <script>
+    var typing = new Typed(".text", {
+      strings: ["", "Martin Dan", "Photogapher"],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+    var typing = new Typed(".text2", {
+      strings: ["", "Martin Dan", "Photogapher"],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+    var typing = new Typed(".text1", {
+      strings: ["", "Martin Dan", "Photogapher"],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+    var typing = new Typed(".text3", {
+      strings: ["", "Martin Dan", "Photogapher"],
+      typeSpeed: 100,
+      backSpeed: 40,
+      loop: true,
+    });
+  </script>
+</body>
+
+</html>
